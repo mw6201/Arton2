@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C220BE4B2AEABCBF00DE7B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE4A2AEABCBF00DE7B7D /* AppDelegate.swift */; };
+		C220BE4D2AEABCBF00DE7B7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE4C2AEABCBF00DE7B7D /* SceneDelegate.swift */; };
+		C220BE4F2AEABCBF00DE7B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE4E2AEABCBF00DE7B7D /* ViewController.swift */; };
+		C220BE522AEABCBF00DE7B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C220BE502AEABCBF00DE7B7D /* Main.storyboard */; };
+		C220BE542AEABCBF00DE7B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C220BE532AEABCBF00DE7B7D /* Assets.xcassets */; };
+		C220BE572AEABCBF00DE7B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C220BE552AEABCBF00DE7B7D /* LaunchScreen.storyboard */; };
+		C220BE622AEABCBF00DE7B7D /* Arton2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE612AEABCBF00DE7B7D /* Arton2Tests.swift */; };
+		C220BE6C2AEABCBF00DE7B7D /* Arton2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE6B2AEABCBF00DE7B7D /* Arton2UITests.swift */; };
+		C220BE6E2AEABCBF00DE7B7D /* Arton2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220BE6D2AEABCBF00DE7B7D /* Arton2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C220BE5E2AEABCBF00DE7B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C220BE3F2AEABCBF00DE7B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C220BE462AEABCBF00DE7B7D;
+			remoteInfo = Arton2;
+		};
+		C220BE682AEABCBF00DE7B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C220BE3F2AEABCBF00DE7B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C220BE462AEABCBF00DE7B7D;
+			remoteInfo = Arton2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C220BE472AEABCBF00DE7B7D /* Arton2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arton2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C220BE4A2AEABCBF00DE7B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C220BE4C2AEABCBF00DE7B7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C220BE4E2AEABCBF00DE7B7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C220BE512AEABCBF00DE7B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C220BE532AEABCBF00DE7B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C220BE562AEABCBF00DE7B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C220BE582AEABCBF00DE7B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C220BE5D2AEABCBF00DE7B7D /* Arton2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arton2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C220BE612AEABCBF00DE7B7D /* Arton2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arton2Tests.swift; sourceTree = "<group>"; };
+		C220BE672AEABCBF00DE7B7D /* Arton2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arton2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C220BE6B2AEABCBF00DE7B7D /* Arton2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arton2UITests.swift; sourceTree = "<group>"; };
+		C220BE6D2AEABCBF00DE7B7D /* Arton2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arton2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C220BE442AEABCBF00DE7B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE5A2AEABCBF00DE7B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE642AEABCBF00DE7B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C220BE3E2AEABCBF00DE7B7D = {
+			isa = PBXGroup;
+			children = (
+				C220BE492AEABCBF00DE7B7D /* Arton2 */,
+				C220BE602AEABCBF00DE7B7D /* Arton2Tests */,
+				C220BE6A2AEABCBF00DE7B7D /* Arton2UITests */,
+				C220BE482AEABCBF00DE7B7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C220BE482AEABCBF00DE7B7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C220BE472AEABCBF00DE7B7D /* Arton2.app */,
+				C220BE5D2AEABCBF00DE7B7D /* Arton2Tests.xctest */,
+				C220BE672AEABCBF00DE7B7D /* Arton2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C220BE492AEABCBF00DE7B7D /* Arton2 */ = {
+			isa = PBXGroup;
+			children = (
+				C220BE4A2AEABCBF00DE7B7D /* AppDelegate.swift */,
+				C220BE4C2AEABCBF00DE7B7D /* SceneDelegate.swift */,
+				C220BE4E2AEABCBF00DE7B7D /* ViewController.swift */,
+				C220BE502AEABCBF00DE7B7D /* Main.storyboard */,
+				C220BE532AEABCBF00DE7B7D /* Assets.xcassets */,
+				C220BE552AEABCBF00DE7B7D /* LaunchScreen.storyboard */,
+				C220BE582AEABCBF00DE7B7D /* Info.plist */,
+			);
+			path = Arton2;
+			sourceTree = "<group>";
+		};
+		C220BE602AEABCBF00DE7B7D /* Arton2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C220BE612AEABCBF00DE7B7D /* Arton2Tests.swift */,
+			);
+			path = Arton2Tests;
+			sourceTree = "<group>";
+		};
+		C220BE6A2AEABCBF00DE7B7D /* Arton2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C220BE6B2AEABCBF00DE7B7D /* Arton2UITests.swift */,
+				C220BE6D2AEABCBF00DE7B7D /* Arton2UITestsLaunchTests.swift */,
+			);
+			path = Arton2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C220BE462AEABCBF00DE7B7D /* Arton2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C220BE712AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2" */;
+			buildPhases = (
+				C220BE432AEABCBF00DE7B7D /* Sources */,
+				C220BE442AEABCBF00DE7B7D /* Frameworks */,
+				C220BE452AEABCBF00DE7B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arton2;
+			productName = Arton2;
+			productReference = C220BE472AEABCBF00DE7B7D /* Arton2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C220BE5C2AEABCBF00DE7B7D /* Arton2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C220BE742AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2Tests" */;
+			buildPhases = (
+				C220BE592AEABCBF00DE7B7D /* Sources */,
+				C220BE5A2AEABCBF00DE7B7D /* Frameworks */,
+				C220BE5B2AEABCBF00DE7B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C220BE5F2AEABCBF00DE7B7D /* PBXTargetDependency */,
+			);
+			name = Arton2Tests;
+			productName = Arton2Tests;
+			productReference = C220BE5D2AEABCBF00DE7B7D /* Arton2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C220BE662AEABCBF00DE7B7D /* Arton2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C220BE772AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2UITests" */;
+			buildPhases = (
+				C220BE632AEABCBF00DE7B7D /* Sources */,
+				C220BE642AEABCBF00DE7B7D /* Frameworks */,
+				C220BE652AEABCBF00DE7B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C220BE692AEABCBF00DE7B7D /* PBXTargetDependency */,
+			);
+			name = Arton2UITests;
+			productName = Arton2UITests;
+			productReference = C220BE672AEABCBF00DE7B7D /* Arton2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C220BE3F2AEABCBF00DE7B7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C220BE462AEABCBF00DE7B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C220BE5C2AEABCBF00DE7B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C220BE462AEABCBF00DE7B7D;
+					};
+					C220BE662AEABCBF00DE7B7D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C220BE462AEABCBF00DE7B7D;
+					};
+				};
+			};
+			buildConfigurationList = C220BE422AEABCBF00DE7B7D /* Build configuration list for PBXProject "Arton2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C220BE3E2AEABCBF00DE7B7D;
+			productRefGroup = C220BE482AEABCBF00DE7B7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C220BE462AEABCBF00DE7B7D /* Arton2 */,
+				C220BE5C2AEABCBF00DE7B7D /* Arton2Tests */,
+				C220BE662AEABCBF00DE7B7D /* Arton2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C220BE452AEABCBF00DE7B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220BE572AEABCBF00DE7B7D /* LaunchScreen.storyboard in Resources */,
+				C220BE542AEABCBF00DE7B7D /* Assets.xcassets in Resources */,
+				C220BE522AEABCBF00DE7B7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE5B2AEABCBF00DE7B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE652AEABCBF00DE7B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C220BE432AEABCBF00DE7B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220BE4F2AEABCBF00DE7B7D /* ViewController.swift in Sources */,
+				C220BE4B2AEABCBF00DE7B7D /* AppDelegate.swift in Sources */,
+				C220BE4D2AEABCBF00DE7B7D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE592AEABCBF00DE7B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220BE622AEABCBF00DE7B7D /* Arton2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C220BE632AEABCBF00DE7B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220BE6E2AEABCBF00DE7B7D /* Arton2UITestsLaunchTests.swift in Sources */,
+				C220BE6C2AEABCBF00DE7B7D /* Arton2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C220BE5F2AEABCBF00DE7B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C220BE462AEABCBF00DE7B7D /* Arton2 */;
+			targetProxy = C220BE5E2AEABCBF00DE7B7D /* PBXContainerItemProxy */;
+		};
+		C220BE692AEABCBF00DE7B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C220BE462AEABCBF00DE7B7D /* Arton2 */;
+			targetProxy = C220BE682AEABCBF00DE7B7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C220BE502AEABCBF00DE7B7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C220BE512AEABCBF00DE7B7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C220BE552AEABCBF00DE7B7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C220BE562AEABCBF00DE7B7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C220BE6F2AEABCBF00DE7B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C220BE702AEABCBF00DE7B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C220BE722AEABCBF00DE7B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arton2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C220BE732AEABCBF00DE7B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arton2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C220BE752AEABCBF00DE7B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arton2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arton2";
+			};
+			name = Debug;
+		};
+		C220BE762AEABCBF00DE7B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arton2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arton2";
+			};
+			name = Release;
+		};
+		C220BE782AEABCBF00DE7B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arton2;
+			};
+			name = Debug;
+		};
+		C220BE792AEABCBF00DE7B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S36559RYN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mytransoffice.Arton2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arton2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C220BE422AEABCBF00DE7B7D /* Build configuration list for PBXProject "Arton2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220BE6F2AEABCBF00DE7B7D /* Debug */,
+				C220BE702AEABCBF00DE7B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C220BE712AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220BE722AEABCBF00DE7B7D /* Debug */,
+				C220BE732AEABCBF00DE7B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C220BE742AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220BE752AEABCBF00DE7B7D /* Debug */,
+				C220BE762AEABCBF00DE7B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C220BE772AEABCBF00DE7B7D /* Build configuration list for PBXNativeTarget "Arton2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220BE782AEABCBF00DE7B7D /* Debug */,
+				C220BE792AEABCBF00DE7B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C220BE3F2AEABCBF00DE7B7D /* Project object */;
+}
